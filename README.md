@@ -69,13 +69,13 @@ This section summarizes the main architecture and the reasons behind the choices
 
 
 ## Hardware
-Case: Rugged PETG 3D printed waterproof case that can be mounted after market to the UTV
-Screen: High brightness screen touchscreen 7 inch screen 
-Power: Usb
-Board: Raspberry Pi 5 (8GB recommended) for memory headroom.
-Storage: Fast microSD card or an NVMe SSD via an M.2 
-HAT for smoother model loading.
-Accessories: USB microphone and speaker (or a specialized audio HAT)
+- Case: Rugged PETG 3D printed waterproof case that can be mounted after market to the UTV
+- Screen: High brightness screen touchscreen 7 inch screen 
+- Power: Usb
+- Board: Raspberry Pi 5 (8GB recommended) for memory headroom.
+- Storage: Fast microSD card or an NVMe SSD via an M.2 
+- HAT for smoother model loading.
+- Accessories: USB microphone and speaker (or a specialized audio HAT)
 
 ## High-Level Workflows
 A concise overview of typical user flows. Detailed use cases are in use_cases.md — see ./use_cases.md.
