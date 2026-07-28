@@ -15,6 +15,10 @@ Table of Contents
 - [License](#license)
 
 ---
+## Problem Statement
+I needed a way to manage my farm without having to pay a subscription service fee to another developer. I also wanted to practice creating some products of my own where I have full control over the design, industrial design etc. so I thought this would be a good project for me to test in my unique homestead situation. A lot of the existing products out there are made for large farms and need the internet to function. The cell signal sucks at my farm so I wanted to experiment with local AI that could live in a small form factor (like a Raspberry PI).
+
+### Hardware
 
 ## Project Overview
 UTVFarmManager provides a streamlined in-vehicle experience for managing daily farm tasks, tracking work, and coordinating teams. Key goals:
@@ -43,6 +47,12 @@ This section summarizes the main architecture and the reasons behind the choices
 - Offline-first data strategy
   - Local persistent store (e.g., SQLite/Room) with a sync queue for server reconciliation.
   - Reason: Field work often has poor connectivity; the app must be reliable offline.
+ 
+- AI Strategy
+- Running offline AI on a Raspberry Pi is completely possible using lightweight open-source software like Ollama for language models, Vosk or Faster Whisper for speech-to-text, and Piper for text-to-speech. A Raspberry Pi 5 with 8GB of RAM works best for local processing without internet access
+- Reason: I need an offline AI that requires no subscription cost to help plan my day's activities in an area that has bad cell reception.
+- It needs to optimize timing of tasks by taking input from weather stations or syncing to my phone.
+- 
 - API-driven backend
   - REST/GraphQL endpoints with authentication and role-based access control.
   - Reason: Keep the mobile surface area simple and delegate heavy logic/analytics to the server.
