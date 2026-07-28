@@ -16,9 +16,8 @@ Table of Contents
 
 ---
 ## Problem Statement
-I needed a way to manage my farm without having to pay a subscription service fee to another developer. I also wanted to practice creating some products of my own where I have full control over the design, industrial design etc. so I thought this would be a good project for me to test in my unique homestead situation. A lot of the existing products out there are made for large farms and need the internet to function. The cell signal sucks at my farm so I wanted to experiment with local AI that could live in a small form factor (like a Raspberry PI).
+I needed a way to manage my farm without having to pay a subscription service fee to another developer. I also wanted to practice creating some products of my own where I have full control over the design, industrial design etc. so I thought this would be a good project for me to test in my unique homestead situation. A lot of the existing products out there are made for large farms and/or need the internet to function. The cell signal sucks at my farm so I wanted to experiment with local AI that could live in a small form factor (like a Raspberry PI).
 
-### Hardware
 
 ## Project Overview
 UTVFarmManager provides a streamlined in-vehicle experience for managing daily farm tasks, tracking work, and coordinating teams. Key goals:
@@ -67,6 +66,16 @@ This section summarizes the main architecture and the reasons behind the choices
 (If you have chosen specific frameworks like Jetpack Compose, Kotlin Coroutines, Retrofit, Room, or a particular backend stack, list them below to be concrete.)
 
 ---
+
+
+## Hardware
+Case: Rugged PETG 3D printed waterproof case that can be mounted after market to the UTV
+Screen: High brightness screen touchscreen 7 inch screen 
+Power: Usb
+Board: Raspberry Pi 5 (8GB recommended) for memory headroom.
+Storage: Fast microSD card or an NVMe SSD via an M.2 
+HAT for smoother model loading.
+Accessories: USB microphone and speaker (or a specialized audio HAT)
 
 ## High-Level Workflows
 A concise overview of typical user flows. Detailed use cases are in use_cases.md — see ./use_cases.md.
